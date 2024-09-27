@@ -8,7 +8,10 @@ document.getElementById('addBtn').addEventListener('click', function() {
     if (question && answer) {
         const flashcard = document.createElement('div');
         flashcard.className = 'flashcard';
-        flashcard.innerHTML = `<strong>Pergunta:</strong> ${question} <br> <strong>Resposta:</strong> ${answer}`;
+        flashcard.innerHTML = `
+            <strong>Pergunta:</strong> ${question} <br>
+            <strong>Resposta:</strong> ${answer}
+        `;
         
         document.getElementById('flashcards').appendChild(flashcard);
 

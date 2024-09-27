@@ -4,6 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flashcard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        #container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .cartao {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .cartao__conteudo__pergunta {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <main>
@@ -15,7 +36,7 @@
                         O que é JavaScript?
                     </div>
                     <div class="cartao__conteudo__resposta">
-                        O JavaScript é uma linguagem de programação
+                        O JavaScript é uma linguagem de programação.
                     </div>
                 </div>
             </article>
@@ -26,14 +47,14 @@
                         O que é CSS?
                     </div>
                     <div class="cartao__conteudo__resposta">
-                        O CSS é uma linguagem de estilização
+                        O CSS é uma linguagem de estilização.
                     </div>
                 </div>
             </article>
         </section>
     </main>
     <footer>
-        <p>Projeto desenvolvido pela Alura, sem fins lucrativos</p>
+        <p>Projeto desenvolvido pela Alura, sem fins lucrativos.</p>
     </footer>
 </body>
 </html>
