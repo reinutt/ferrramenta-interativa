@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             alert('Por favor, preencha tanto a pergunta quanto a resposta!');
         }
-        
     });
 
     function createFlashcardElement(question, answer) {
@@ -63,3 +62,4 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('flashcards', JSON.stringify(updatedFlashcards));
     }
 });
+
